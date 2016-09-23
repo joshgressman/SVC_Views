@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Administrtive Edit!</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="data">
+  <header>
+
+  </header>
+  <h2 class="adminEdit">Administrative Options</h2>
+  <div class ="container">
+  <div class = "row">
+   <div class="col-md-2" id="dataside">
+     <ul class = "nav">
+       <li><button class="button">Reports</button></li>
+       <li><button class="button">Data Entry</button></li>
+       <li><button class="button">Options</button></li>
+     </ul>
+   </div>
+   <div class="col-md-9" id="dataview">
+     <form id="formedit">
+       <h3 class="edit3">Edit Form</h3>
+       <label for="edit">Entry Confiration #:</label>
+       <input class="edit" type="text" ng-model="form.edit" /><button>Submit</button>
+     </form>
+   </div>
+  </div>
+</div>
+</body>
+
+</html>
